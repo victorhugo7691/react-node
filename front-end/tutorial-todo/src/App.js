@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { useState } from "react";
 //import {AiOutlineEdit} from 'react-icons';
 
 const arrayTodos = [
@@ -23,6 +24,7 @@ const Todos = ({ todos }) => {
   };
 
 function App() {
+  const [todos, setTodos] = useState([]);
   return (
     <div className="App">
       <header className="container">
