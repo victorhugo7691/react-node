@@ -14,7 +14,7 @@ const Todos = ({ todos }) => {
         return (
           <div className="todo">
             <p>{todo.name}</p>
-            <button>Editar</button>
+            <button className="button">Editar</button>
             <button>Delete</button>
           </div>
         )
@@ -26,6 +26,9 @@ function App() {
   return (
     <div className="App">
       <header className="container">
+        <div className="header">
+          <h1>Titulo</h1>
+        </div>
         <Todos todos={arrayTodos}></Todos>
       </header>
     </div>
