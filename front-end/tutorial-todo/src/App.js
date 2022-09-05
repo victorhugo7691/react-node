@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+//import {AiOutlineEdit} from 'react-icons';
 
 const arrayTodos = [
   { name:"limparCasa", status:false}, 
@@ -13,6 +14,8 @@ const Todos = ({ todos }) => {
         return (
           <div className="todo">
             <p>{todo.name}</p>
+            <button>Editar</button>
+            <button>Delete</button>
           </div>
         )
       })}
