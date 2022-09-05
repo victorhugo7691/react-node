@@ -3,7 +3,8 @@ import './App.css';
 
 const arrayTodos = [
   { name:"limparCasa", status:false}, 
-  { name:"Jhon", status:false }
+  { name:"Jhon", status:false },
+  { name:"Pedro", status:false }
 ];
 
 const Todos = ({ todos }) => {
